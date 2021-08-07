@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.main_expenseTracker{
+    width: 33%;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+.main_heading{
+    text-align: center;
+    text-shadow: 1px 1px rgb(49, 48, 48);
+    margin-top: 5px;
+}
+.main_balance{
+    width: 50%;
+}
+.main_balance h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main_balance p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main_expense_income{
+display: flex;
+margin: 0 auto;
+justify-content: space-around;
+width: 70%;
+/* background-color: brown; */
+}
+.main_expense_income p{
+    font-size: 20px ;
+    font-weight: bolder;
+}
+.history_details p , .transaction_details p{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+.history_ul li {
+    /* border-bottom: 1px solid grey; */
+    margin-bottom: 4px !important;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0% ;
+    
+}
+
+.transaction_button button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .main_expenseTracker    {
+      width: 100%;
+    }
+  }
+
+
+
+
+
